@@ -1,0 +1,87 @@
+.android{
+	height: 900px; width: 600px;
+	margin: 100px auto;
+}
+
+div {margin: o; padding: 0;}
+
+div div{
+	background-color: #A4C639;
+}
+
+.head{
+	width: 400px; height: 200px;
+	top: 32px;
+	border-radius: 200px 200px 0 0;
+	margin: auto;
+	position: relative;
+}
+
+.lefteye, .righteye{
+	background: #fff;
+	width: 40px; 
+	height: 40px;
+	position: absolute; 
+	border-radius: 20px;
+	top: 80px;
+}
+
+.lefteye{left:90px;}
+.righteye{right:90px;}
+
+.body{
+	top:50px;
+	margin:auto;
+	height: 350px;
+	width: 400px;
+	border-radius: 0 0 50px 50px;
+	position: relative;
+}
+
+.leftarm{
+	height: 300px;
+	width: 80px;
+	position: relative;
+	border-radius:40px;
+}
+
+.rightarm, .leftarm{
+	height: 300px;
+	width: 80px;
+	position: relative;
+	border-radius:40px;
+}
+
+.rightarm{float: right; right: -100px;}
+.leftarm{float: left; left:-100px;}
+
+.leftleg, .rightleg{
+	height: 150px;
+	width: 80px;
+	position: absolute;
+	top:350px;
+	border-radius: 0 0 40px 40px;
+}
+
+.rightleg{right:90px;}
+.leftleg{left:90px;}
+
+.leftant{left: 90px; transform: rotate(-30deg); }
+.rightant{right:90px; transform: rotate(30deg);}
+
+.rightant, .leftant{
+	height: 80px;
+	width: 10px;
+	position:absolute;
+	top: -50px;
+}
+
+.head:hover {
+	transform: rotate(-5deg) translate(-8px, -15px);
+}
+.leftarm:hover{
+	transform: rotate(30deg) translate(-60px, 15px);
+}
+.rightarm:hover{
+	transform: rotate(-30deg) translate(60px, 15px);
+}
